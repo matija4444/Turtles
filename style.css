@@ -1,3 +1,6 @@
+body{
+  background-color: rgb(143, 209, 41);
+}
 .slider {
     position:relative;
     overflow: hidden;
@@ -27,13 +30,20 @@
     }
   }
 h1{
-    color: rgb(247, 105, 5);
+    color: rgb(237, 28, 40);
+    
 }
 button{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+button:hover{
+  transition: 1s;
+  background-color: rgb(237, 28, 40);
+  color: black;
+}
 #pic{
   width: 400px;
   height: 500px;
+  border-radius: 40%;
 }
