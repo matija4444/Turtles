@@ -2,21 +2,25 @@
     position: relative;
     overflow: hidden;
     height: 50px;
+    width: 100%;
+    background-color: black;
+
 }
 .sliderText{
     position: absolute;
     top: 0;
     left: 0;
-    width: 400%;
+    width: 90%;
     height: 100%;
-    animation: slide 15s linear infinite;
+    animation: slide 8s linear infinite;
+    color: aliceblue;
 }
 @keyframes slide {
     0% {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-100%);
+      transform: translateX(100%);
     }
   }
 h1{
