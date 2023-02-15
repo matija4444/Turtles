@@ -1,0 +1,24 @@
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+}
+.sliderText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400%;
+    height: 100%;
+    animation: slide 15s linear infinite;
+}
+@keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+h1{
+    color: rgb(247, 105, 5);
+}
