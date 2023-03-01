@@ -64,6 +64,7 @@ btnNext.addEventListener("click" , function(nextPic){
 });
 btnRaphael.addEventListener("click" , function(){
     popis=rapLis;
+    counter = 1;
     if (counter ==8){
         counter=0
     }
@@ -72,6 +73,7 @@ btnRaphael.addEventListener("click" , function(){
 });
 btnMichelangelo.addEventListener("click" , function(){
     popis=micLis;
+    counter = 1;
     if (counter ==8){
         counter=0
     }
@@ -80,6 +82,7 @@ btnMichelangelo.addEventListener("click" , function(){
 });
 btnDonatelo.addEventListener("click" , function(){
     popis=donLis;
+    counter = 1;
     if (counter ==8){
         counter=0
     }
@@ -88,6 +91,7 @@ btnDonatelo.addEventListener("click" , function(){
 });
 btnLeonardo.addEventListener("click" , function(){
     popis=leoLis;
+    counter = 1;
     if (counter ==8){
         counter=0
     }
