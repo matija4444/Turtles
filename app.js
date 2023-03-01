@@ -47,3 +47,50 @@ var izjLis =[
     "Hellacious!",
     "You live, you die, you fight as brothers!"
 ]
+var btnNext = document.getElementById("bNext");
+var btnLeonardo = document.getElementById("bLeonardo");
+var btnDonatelo = document.getElementById("bDonatelo");
+var btnMichelangelo = document.getElementById("bMichelangelo");
+var btnRaphael = document.getElementById("bRaphael");
+var slika = document.getElementById("pic");
+var popis = donLis;
+var counter = 1;
+btnNext.addEventListener("click" , function(nextPic){
+    if (counter ==8){
+        counter=0
+    }
+    slika.src=popis[counter];
+    counter= counter+1;
+});
+btnRaphael.addEventListener("click" , function(){
+    popis=rapLis;
+    if (counter ==8){
+        counter=0
+    }
+    slika.src=popis[counter];
+    counter= counter+1;
+});
+btnMichelangelo.addEventListener("click" , function(){
+    popis=micLis;
+    if (counter ==8){
+        counter=0
+    }
+    slika.src=popis[counter];
+    counter= counter+1;
+});
+btnDonatelo.addEventListener("click" , function(){
+    popis=donLis;
+    if (counter ==8){
+        counter=0
+    }
+    slika.src=popis[counter];
+    counter= counter+1;
+});
+btnLeonardo.addEventListener("click" , function(){
+    popis=leoLis;
+    if (counter ==8){
+        counter=0
+    }
+    slika.src=popis[counter];
+    counter= counter+1;
+});
